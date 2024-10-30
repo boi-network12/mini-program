@@ -3,7 +3,7 @@
     height: 100lvh;
     width: 100%;
     color: #fff;
-    overflow: auto;
+    overflow: scroll;
     padding: 70px 8% 0;
     display: flex;
     gap: 5%;
@@ -82,4 +82,11 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .homeWrapper {
+        padding: 70px 20px 30px;
+    }
 }

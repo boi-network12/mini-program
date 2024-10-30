@@ -8,9 +8,26 @@
   padding: 0;
   box-sizing: border-box;
   transition: all .1s ease;
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Hide scrollbar for all webkit browsers (Chrome, Safari) */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar in all browsers */
+* {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  overflow: hidden;
+  /* Prevent scrolling */
 }
