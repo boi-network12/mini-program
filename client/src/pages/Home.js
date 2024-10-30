@@ -106,7 +106,7 @@ const Home = () => {
                             <Link to="/wifi-speed">
                                 <img src={wifi_speed} alt="" />
                             </Link>
-                            <Link>
+                            <Link to="/translator">
                                 <img src={translate_image} alt="" />
                             </Link>
                         </div>
