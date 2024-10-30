@@ -4,6 +4,12 @@ import Signture_design_img from '../assets/signature-app.png';
 import world_clock from '../assets/world-clock.jfif';
 import wifi_speed from '../assets/wifi-speed.jfif';
 import translate_image from '../assets/translate-image.png';
+import medal_table from '../assets/medal-table.jfif';
+import copy_writter from '../assets/copy-writter.webp';
+import fire_work from '../assets/firework-simulator.jfif';
+import pomodoro from '../assets/pomodoro-image.jfif';
+import postal_codes from '../assets/postal-code.jfif';
+import online_drawing from '../assets/online-drawing.jfif';
 import { Link } from 'react-router-dom';
 
 const boxesData = [
@@ -23,82 +29,66 @@ const boxesData = [
                 link: "/world-clock",
                 icon: world_clock,
             },
+            {
+                id: 3,
+                label: "medal table",
+                link: "/world-clock",
+                icon: medal_table,
+            },
+            {
+                id: 4,
+                label: "fire simulator",
+                link: "/world-clock",
+                icon: fire_work,
+            },
+            {
+                id: 5,
+                label: "copy writter",
+                link: "/world-clock",
+                icon: copy_writter,
+            },
+            {
+                id: 6,
+                label: " pomodoro",
+                link: "/world-clock",
+                icon: pomodoro,
+            },
+            {
+                id: 7,
+                label: " postal codes",
+                link: "/world-clock",
+                icon: postal_codes,
+            },
+            {
+                id: 8,
+                label: " online drawing",
+                link: "/world-clock",
+                icon: online_drawing,
+            },
         ],
         hasButtons: true,
     },
     {
         id: 2,
-        title: "Utilities",
+        title: "Basic tools",
         apps: [
-            {
-                id: 3,
-                label: "Calculator",
-                link: "/calculator",
-                icon: wifi_speed,
-            },
-            {
-                id: 4,
-                label: "Weather",
-                link: "/weather",
-                icon: wifi_speed,
-            },
+            // appp icon
         ],
         hasButtons: false,
     },
     {
         id: 3,
-        title: "Utilities",
+        title: "More tools",
         apps: [
-            {
-                id: 3,
-                label: "Calculator",
-                link: "/calculator",
-                icon: wifi_speed,
-            },
-            {
-                id: 4,
-                label: "Weather",
-                link: "/weather",
-                icon: wifi_speed,
-            },
+            // app icons
         ],
         hasButtons: false,
     },
     {
         id: 4,
-        title: "Utilities",
+        title: "Dsicover",
         apps: [
-            {
-                id: 3,
-                label: "Calculator",
-                link: "/calculator",
-                icon: wifi_speed,
-            },
-            {
-                id: 4,
-                label: "Weather",
-                link: "/weather",
-                icon: wifi_speed,
-            },
-        ],
-        hasButtons: false,
-    },
-    {
-        id: 5,
-        title: "Utilities",
-        apps: [
-            {
-                id: 3,
-                label: "Calculator",
-                link: "/calculator",
-                icon: wifi_speed,
-            },
-            {
-                id: 4,
-                label: "Weather",
-                link: "/weather",
-                icon: wifi_speed,
-            },
+            // app icons
         ],
         hasButtons: false,
     },
@@ -113,7 +103,7 @@ const Home = () => {
                     <h3>{box.title}</h3>
                     {box.hasButtons && (
                         <div className='second-box speed-trans'>
-                            <Link>
+                            <Link to="/wifi-speed">
                                 <img src={wifi_speed} alt="" />
                             </Link>
                             <Link>

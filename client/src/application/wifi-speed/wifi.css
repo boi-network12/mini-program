@@ -1,0 +1,28 @@
+.wifi-speed-wrapper {
+    width: 100%;
+    height: 100lvh;
+    background: #eee;
+    padding-top: 60px;
+    color: #333;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wifi-speed-wrapper>img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.wifi-speed-wrapper>h3 {
+    font-size: 3rem;
+    color: #888;
+}
+
+.wifi-speed-wrapper>h3 span {
+    color: #000;
+    font-size: 1.22rem;
+}
