@@ -47,6 +47,7 @@ const Translator = () => {
                     rows="10"
                     value={inputText}
                     onChange={(e) => setInputText(e.target.value)}
+                    placeholder='Translate your text'
                 ></textarea>
                 <button onClick={handleTranslate}>Translate</button>
             </form>
@@ -57,7 +58,13 @@ const Translator = () => {
                         <option key={lang.code} value={lang.code}>{lang.name}</option>
                     ))}
                 </select>
-                <textarea cols="30" rows="10" value={translatedText} disabled></textarea>
+                <textarea
+                    cols="30"
+                    rows="10"
+                    value={translatedText}
+                    disabled
+                    placeholder='wait for your output'
+                ></textarea>
             </form>
         </div>
     );

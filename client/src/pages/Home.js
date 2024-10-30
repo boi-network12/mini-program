@@ -20,7 +20,7 @@ const boxesData = [
             {
                 id: 1,
                 label: "Signature",
-                link: "/signature",
+                link: "/signature-design",
                 icon: Signture_design_img,
             },
             {
