@@ -32,6 +32,7 @@
     flex-direction: row;
     width: 100%;
     gap: 5%;
+    margin-bottom: 10px;
 }
 
 .homeWrapper .box>.second-box>a img {
