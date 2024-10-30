@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import WifiSpeed from './application/wifi-speed/wifi';
 import Translator from './application/translator/translator';
 import SignatureDesign from './application/signatureDesign/signature';
+import WorldClock from './application/worldClock/worldClock';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/wifi-speed" element={<WifiSpeed />} />
         <Route path="/translator" element={<Translator />} />
         <Route path="/signature-design" element={<SignatureDesign />} />
+        <Route path="/world-clock" element={<WorldClock />} />
       </Routes>
     </Router>
   );
