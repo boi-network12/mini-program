@@ -1,0 +1,68 @@
+.homeWrapper {
+    background: rgba(0, 0, 0, 10);
+    height: 100lvh;
+    width: 100%;
+    color: #fff;
+    overflow: auto;
+    padding: 70px 8% 0;
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+.homeWrapper .box {
+    background: #333;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: center;
+}
+
+.homeWrapper .box>h3 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.homeWrapper .box>.second-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5%;
+}
+
+.homeWrapper .box>.second-box>a img {
+    width: 145px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.homeWrapper .box>.app-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.homeWrapper .box>.app-list>a {
+    text-decoration: none;
+}
+
+.homeWrapper .box>.app-list>a>img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.homeWrapper .box>.app-list>a>p {
+    font-size: 11px;
+    color: #fff;
+}
