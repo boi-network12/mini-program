@@ -6,6 +6,7 @@ import WifiSpeed from './application/wifi-speed/wifi';
 import Translator from './application/translator/translator';
 import SignatureDesign from './application/signatureDesign/signature';
 import WorldClock from './application/worldClock/worldClock';
+import MedalTable from './application/Medal-table/MedalTable';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/translator" element={<Translator />} />
         <Route path="/signature-design" element={<SignatureDesign />} />
         <Route path="/world-clock" element={<WorldClock />} />
+        <Route path="/medal-table" element={<MedalTable />} />
       </Routes>
     </Router>
   );

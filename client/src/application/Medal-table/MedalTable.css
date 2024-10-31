@@ -1,0 +1,41 @@
+.MedalTableWrapper {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #333;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.MedalTable {
+    width: 80%;
+    max-width: 600px;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.MedalTable thead {
+    background-color: #333;
+    color: #fff;
+}
+
+.MedalTable th,
+.MedalTable td {
+    padding: 15px;
+    text-align: center;
+}
+
+.MedalTable tbody tr:nth-child(even) {
+    background-color: #f5f7fa;
+}
+
+.MedalTable tbody tr:hover {
+    background-color: #eaeef3;
+    cursor: pointer;
+}

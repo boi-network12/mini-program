@@ -32,7 +32,7 @@ const boxesData = [
             {
                 id: 3,
                 label: "medal table",
-                link: "/world-clock",
+                link: "/medal-table",
                 icon: medal_table,
             },
             {
