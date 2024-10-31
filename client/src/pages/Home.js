@@ -38,7 +38,7 @@ const boxesData = [
             {
                 id: 4,
                 label: "fire simulator",
-                link: "/world-clock",
+                link: "/firework-simulator",
                 icon: fire_work,
             },
             {

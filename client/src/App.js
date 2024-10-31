@@ -7,6 +7,7 @@ import Translator from './application/translator/translator';
 import SignatureDesign from './application/signatureDesign/signature';
 import WorldClock from './application/worldClock/worldClock';
 import MedalTable from './application/Medal-table/MedalTable';
+import FireworkSimualtor from './application/FireWorks-Simulator/fireworkSimualtor';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/signature-design" element={<SignatureDesign />} />
         <Route path="/world-clock" element={<WorldClock />} />
         <Route path="/medal-table" element={<MedalTable />} />
+        <Route path="/firework-simulator" element={<FireworkSimualtor />} />
       </Routes>
     </Router>
   );
