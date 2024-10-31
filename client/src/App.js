@@ -8,6 +8,7 @@ import SignatureDesign from './application/signatureDesign/signature';
 import WorldClock from './application/worldClock/worldClock';
 import MedalTable from './application/Medal-table/MedalTable';
 import FireworkSimualtor from './application/FireWorks-Simulator/fireworkSimualtor';
+import CopyWriter from './application/Copy-writer/copyWriter';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/world-clock" element={<WorldClock />} />
         <Route path="/medal-table" element={<MedalTable />} />
         <Route path="/firework-simulator" element={<FireworkSimualtor />} />
+        <Route path="/copy-writer" element={<CopyWriter />} />
       </Routes>
     </Router>
   );

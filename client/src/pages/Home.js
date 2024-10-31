@@ -44,7 +44,7 @@ const boxesData = [
             {
                 id: 5,
                 label: "copy writter",
-                link: "/world-clock",
+                link: "/copy-writer",
                 icon: copy_writter,
             },
             {
